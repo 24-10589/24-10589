@@ -1,0 +1,9 @@
+// Ejercicio 1: Leyes de De Morgan
+// ¬(P ∧ Q) ≡ ¬P ∨ ¬Q
+de_morgan1 = func(p, q) { return !(p && q) == (!p || !q) }
+
+// ¬(P ∨ Q) ≡ ¬P ∧ ¬Q
+de_morgan2 = func(p, q) { return !(p || q) == (!p && !q) }
+
+// Ejercicio 2: Función sucesora
+succ = func(z) { return z + 1 }
