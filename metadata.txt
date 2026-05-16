@@ -1,0 +1,19 @@
+MODELO DE IA: Gemini 3 Flash
+
+--- PROMPTS EJERCICIO 1 & 2 (Zilly) ---
+Prompt: "Escribe en sintaxis Zilly (abstracciones funcionales) las leyes de De Morgan: 
+negación de P y Q es no P o no Q, y negación de P o Q es no P y no Q. 
+Asigna a de_morgan1 y de_morgan2. Además, una función succ(z) que sea z + 1."
+
+--- PROMPT EJERCICIO 3 (C++) ---
+Prompt: "Implementa en C++ las funciones mean y variance para un vector de doubles."
+
+--- DETALLES EJERCICIO 4 (C++) ---
+Se solicitó la implementación del coeficiente de correlación de Pearson (pearson_r) 
+para dos vectores de entrada VA y VB. Se utilizó la fórmula de covarianza 
+dividida por el producto de las desviaciones estándar para mayor estabilidad numérica.
+
+--- DETALLES EJERCICIO 5 (C++) ---
+Se implementaron conversores de base (7, 8, 16) utilizando funciones auxiliares 
+to_dec y from_dec para facilitar las transiciones entre los sistemas de los 
+pulpos (Septapus, Octopus, Hexakaidecapus).
